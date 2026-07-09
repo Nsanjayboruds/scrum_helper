@@ -12,7 +12,7 @@
     "check": "biome check .",
     "fix": "biome lint --write .",
     "check:write": "biome check --write .",
-    "build": "node build.js"
+    "build": "node init && node build.js"
   },
   "keywords": [
     "scrum",
