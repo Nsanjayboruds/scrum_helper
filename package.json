@@ -12,7 +12,7 @@
     "check": "biome check .",
     "fix": "biome lint --write .",
     "check:write": "biome check --write .",
-    "build": "node build.js",
+    "build": "node init && node build.js",
     "tauri": "tauri",
     "test": "vitest run",
     "test:watch": "vitest"
@@ -33,7 +33,7 @@
     "@tauri-apps/api": "^2.11.1",
     "@tauri-apps/cli": "^2.11.4",
     "autoprefixer": "^10.5.4",
-    "happy-dom": "^20.11.8",
+    "happy-dom": "^20.12.0",
     "postcss": "^8.5.26",
     "tailwindcss": "^4.3.3",
     "vitest": "^4.1.11"
